@@ -1,4 +1,3 @@
-# a3
 
 ## Part 1  POS Tagging
 Problem Description:-
