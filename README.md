@@ -68,7 +68,7 @@ Observations:-
 	of gibbs. This results are shown below:
 	Fine tuned results = Final3.png
 	
-## Part 2
+## Part 2 Decryption through replace and rearrangement of alphabets
 Probability Matrix:
 Likelihood: It takes corpus as input to create a square matrix of size 26 by 26 initialized with zeroes for total set of characters. If the corpus is blank for previous character and next character, transition value is 0. For current value if space but previous is not space, transition value s ASCII value of previous. Similarly, if current character in corpus is not space but previous value is a space, transition value is ord of previous character. Last case when both the characters are non space value, transition value is the ord of difference of both ASCII values.  
 Prior: It is the probability of each character(P(W0(i) )) for which transitions are calculated. For each row, transition sum of the values from that character upon its occurrences in the whole matrix is calculated.
@@ -92,7 +92,7 @@ For each document, the P(D) =∑ P(Wi) , is calculated. A final document is crea
 
 
 
-## Part 3
+## Part 3 Mail Spam Classifier
 
 To solve this spam filtering problem we use a Naive Bayes classifier to infer 
 whether an email is spam or not using the distribution of words in the new message. 
